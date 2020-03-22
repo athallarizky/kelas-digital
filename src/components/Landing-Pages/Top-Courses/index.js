@@ -9,4 +9,4 @@ const TopCourses = () => {
     )
 }
 
-export default TopCourses; 
+export default TopCourses;
