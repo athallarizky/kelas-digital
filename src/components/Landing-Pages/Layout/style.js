@@ -6,12 +6,29 @@ export const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
   },
-  
+
+  appLogoContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    
+  },
+
+  appLogo: {
+    marginTop: 20,
+    fontSize: 30,
+    textDecoration: 'none'
+  },
+
   drawer: {
     [theme.breakpoints.up('sm')]: {
       width: drawerWidth,
       flexShrink: 0,
     },
+  },
+
+  appListItems: {
+    marginTop: '40px !important',
   },
 
   menuButton: {
@@ -23,6 +40,37 @@ export const useStyles = makeStyles(theme => ({
 
   // Right pane:
   toolbar: theme.mixins.toolbar,
+
+  appBar: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+    minHeight: 80,
+    padding: 5
+  },
+
+  appItemsContainer: {
+    paddingTop: 25,
+    
+  },
+
+  appItems:{
+    color:'#FFF',
+    padding:25,
+    marginRight: 20,
+    paddingTop: 15,
+    paddingBottom: 15,
+    background: '#FFF',
+    color: purple,
+    textDecoration: 'none'
+  },
+
+  loginButton: {
+    maxWidth: 30,
+    marginTop: '15px !important',
+    marginRight: '30px !important',
+  },
+
   drawerPaper: {
     width: drawerWidth,
   },
@@ -30,7 +78,6 @@ export const useStyles = makeStyles(theme => ({
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
-    background: purple,
   },
 
   rightPane: {

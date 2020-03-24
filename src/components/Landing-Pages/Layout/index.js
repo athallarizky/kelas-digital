@@ -20,7 +20,7 @@ const Layout = () =>{
     const classes = useStyles();
     return(
         <div className="wrapper">
-            <div className="left-pane">
+            <div className={classes.leftpane}>
                 <Navigation/>
             </div>
             <div className={classes.rightPane}>

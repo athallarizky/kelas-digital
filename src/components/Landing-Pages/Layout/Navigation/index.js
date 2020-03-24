@@ -16,9 +16,15 @@ function Navigation(props) {
   const classes = useStyles();
 
   const drawer = (
-    <div>
-      <div className={classes.toolbar} />
-      <List>
+    <div className={classes.drawerContainer}>
+
+      <div className={classes.toolbar, classes.appLogoContainer} >
+        <Link to="/" className={classes.appLogo}>
+          KelasDigital.
+        </Link>
+      </div>
+
+      <List className={classes.appListItems}>
         <Link to="/">
           <ListItem button>
               <li>Home</li>
