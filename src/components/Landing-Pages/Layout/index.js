@@ -1,6 +1,8 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
+import { useStyles } from './style'
+
 import Navigation from './Navigation';
 import Header from './Header';
 import Footer from './Footer';
@@ -13,24 +15,28 @@ import FAQ from "../FAQ";
 import Testimonials from "../Testimonials";
 import PageNotFound from '../../Shared/Page-Not-Found';
 
+
 const Layout = () =>{
+    const classes = useStyles();
     return(
         <div className="wrapper">
             <div className="left-pane">
                 <Navigation/>
             </div>
-            <div className="right-pane" style={{float: "right"}}>
+            <div className={classes.rightPane}>
                 <Header/>
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route path='/about' component={About} />
-                    <Route path='/offers' component={Offers} />
-                    <Route path='/top-course' component={TopCourses} />
-                    <Route path='/faq' component={FAQ} />
-                    <Route path='/testimonials' component={Testimonials} />
-                    <Route path='*' component={PageNotFound} />
-                </Switch>
-                <Footer/>
+                <main className={classes.content}>
+                    <div className={classes.toolbar} />
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route path='/about' component={About} />
+                        <Route path='/offers' component={Offers} />
+                        <Route path='/top-course' component={TopCourses} />
+                        <Route path='/faq' component={FAQ} />
+                        <Route path='/testimonials' component={Testimonials} />
+                        <Route path='*' component={PageNotFound} />
+                    </Switch>
+                </main>
             </div>
         </div>
     )
