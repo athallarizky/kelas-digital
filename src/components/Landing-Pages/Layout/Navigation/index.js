@@ -22,33 +22,33 @@ function Navigation(props) {
       </div>
 
       <List className={classes.appListItems}>
-        <Link to="/">
-          <ListItem button>
-              <li>Home</li>
+        <Link to="/" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
+              Home
           </ListItem>
         </Link>
-        <Link to="/about">
-          <ListItem button>
-              <li>About</li>
+        <Link to="/about" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
+              About
           </ListItem>
         </Link>
-        <Link to="/offers">
-          <ListItem button>
-              <li>Offers</li>
+        <Link to="/offers" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
+              Offers
           </ListItem>
         </Link>
-        <Link to="/top-course">
-          <ListItem button>
-              <li>Top Courses</li>
+        <Link to="/top-course" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
+              Top Courses
           </ListItem>
         </Link>
-        <Link to="/faq">
-          <ListItem button>
+        <Link to="/faq" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
               <li>F.A.Q</li>
           </ListItem>
         </Link>
-        <Link to="/testimonials">
-          <ListItem button>
+        <Link to="/testimonials" className={classes.navLinks}>
+          <ListItem button className={classes.navItem}>
               <li>Testimonials</li>
           </ListItem>
         </Link>
@@ -60,7 +60,7 @@ function Navigation(props) {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <nav className={classes.drawer} aria-label="mailbox folders">
+      <nav className={classes.drawer} aria-label="mailbox folders" >
         <Hidden xsDown implementation="css">
           <Drawer classes={{ paper: classes.drawerPaper,}} variant="permanent" open >
             {drawer}

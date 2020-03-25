@@ -1,6 +1,6 @@
-import { makeStyles } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
-export const drawerWidth = 240;
+import { makeStyles, withStyles } from '@material-ui/core/styles';
+
+export const drawerWidth = 250;
 export const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
@@ -24,10 +24,32 @@ export const useStyles = makeStyles(theme => ({
       width: drawerWidth,
       flexShrink: 0,
     },
+
+    
   },
 
+  
+
   appListItems: {
-    marginTop: '40px !important',
+    display: 'flex',
+    flexDirection: 'column',
+    marginTop: '100px !important',
+  },
+
+  navLinks: {
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    color: '#FFF',
+    fontSize: 15,
+    textAlign: 'center',
+    marginBottom: '20px !important',
+    letterSpacing: 2.5,
+  },
+
+  navItem: {
+    display:'flex',
+    justifyContent:'center !important',
+    
   },
 
   menuButton: {
@@ -50,17 +72,14 @@ export const useStyles = makeStyles(theme => ({
 
   appItemsContainer: {
     paddingTop: 25,
-    
   },
 
   appItems:{
-    color:'#FFF',
     padding:25,
     marginRight: 20,
     paddingTop: 15,
     paddingBottom: 15,
     background: '#FFF',
-    color: purple,
     textDecoration: 'none'
   },
 
@@ -72,6 +91,7 @@ export const useStyles = makeStyles(theme => ({
 
   drawerPaper: {
     width: drawerWidth,
+    backgroundColor: '#22222D !important',
   },
 
   content: {
