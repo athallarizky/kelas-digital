@@ -17,7 +17,7 @@ function Navigation(props) {
 
       <div className={classes.toolbar, classes.appLogoContainer} >
         <Link to="/" className={classes.appLogo}>
-          KelasDigital.
+          Kelas<span style={{color:"#FF2858"}}>Digital.</span>
         </Link>
       </div>
 

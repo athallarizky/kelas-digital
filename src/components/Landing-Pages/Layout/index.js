@@ -27,6 +27,7 @@ const Layout = () =>{
                 <Header/>
                 <main className={classes.content}>
                     <div className={classes.toolbar} />
+                    <div className={classes.wrapper}> 
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route path='/about' component={About} />
@@ -36,6 +37,7 @@ const Layout = () =>{
                         <Route path='/testimonials' component={Testimonials} />
                         <Route path='*' component={PageNotFound} />
                     </Switch>
+                    </div>
                 </main>
             </div>
         </div>

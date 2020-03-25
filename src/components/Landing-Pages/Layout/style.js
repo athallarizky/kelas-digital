@@ -1,4 +1,4 @@
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 export const drawerWidth = 250;
 export const useStyles = makeStyles(theme => ({
@@ -16,7 +16,10 @@ export const useStyles = makeStyles(theme => ({
   appLogo: {
     marginTop: 20,
     fontSize: 30,
-    textDecoration: 'none'
+    fontWeight: "Bold",
+    textDecoration: 'none',
+    color: '#FFF'
+    
   },
 
   drawer: {
@@ -52,6 +55,8 @@ export const useStyles = makeStyles(theme => ({
     
   },
 
+  
+
   menuButton: {
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('sm')]: {
@@ -62,31 +67,40 @@ export const useStyles = makeStyles(theme => ({
   // Right pane:
   toolbar: theme.mixins.toolbar,
 
+  wrapper:{
+    paddingTop: '10px',
+    minHeight:'100vh',
+  },
+
   appBar: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-end',
     minHeight: 80,
-    padding: 5
+    padding: 5,
+    backgroundColor: '#F5F6F8 !important',
   },
 
-  appItemsContainer: {
-    paddingTop: 25,
+  appItemsContainer: {  
+    padding: 25,
   },
-
+  
   appItems:{
     padding:25,
-    marginRight: 20,
-    paddingTop: 15,
-    paddingBottom: 15,
-    background: '#FFF',
-    textDecoration: 'none'
+    paddingTop: 10,
+    paddingBottom: 10,
+    textDecoration: 'none',
+    marginRight:'20px',
+    borderRadius:'5px',
   },
 
-  loginButton: {
-    maxWidth: 30,
-    marginTop: '15px !important',
-    marginRight: '30px !important',
+  registerButton: {
+    background:'#AC0026',
+    color:'#FFF'
+  },
+
+  loginButton:{
+    border: '1.5px solid #AC0026',
   },
 
   drawerPaper: {
@@ -97,6 +111,8 @@ export const useStyles = makeStyles(theme => ({
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
+    minHeight:'100vh',
+    padding:0,
   },
 
   rightPane: {
