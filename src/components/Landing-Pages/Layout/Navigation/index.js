@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import PropTypes from 'prop-types';
-
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';

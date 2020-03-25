@@ -1,7 +1,6 @@
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import purple from '@material-ui/core/colors/purple';
 export const drawerWidth = 240;
-
 export const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',

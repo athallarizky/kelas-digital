@@ -17,7 +17,7 @@ import PageNotFound from '../../Shared/Page-Not-Found';
 
 
 const Layout = () =>{
-    const classes = useStyles();
+    const classes = useStyles();    
     return(
         <div className="wrapper">
             <div className={classes.leftpane}>

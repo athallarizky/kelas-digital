@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Layout from "./components/Landing-Pages/Layout";
 import PageNotFound from "./components/Shared/Page-Not-Found";
-import "./App.css";
 
 const App = () => {
   return(
