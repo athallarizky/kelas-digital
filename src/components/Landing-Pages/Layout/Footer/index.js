@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer = () =>{
     return(
-        <h1>Footer</h1>
+        <div style={{background:'black', width:'100%', height:'200px'}}>
+            &copy; KelasDigital. 2020
+        </div>
     )
 }
 

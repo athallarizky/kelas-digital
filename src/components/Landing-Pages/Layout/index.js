@@ -39,6 +39,7 @@ const Layout = () =>{
                     </Switch>
                     </div>
                 </main>
+                <Footer/>
             </div>
         </div>
     )

@@ -50,9 +50,8 @@ export const useStyles = makeStyles(theme => ({
   },
 
   navItem: {
-    display:'flex',
-    justifyContent:'center !important',
-    
+    // display:'flex',
+    // justifyContent:'center !important',
   },
 
   

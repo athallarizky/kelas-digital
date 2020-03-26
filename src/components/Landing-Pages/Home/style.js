@@ -5,9 +5,26 @@ export const useStyles = makeStyles(theme => ({
         height: '100vh',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        paddingLeft: 100,
+        paddingTop: 100,
     },
-    test:{
-        color:'darkred',
+    mainText:{
+        maxWidth:"450px",
+        fontFamily:"Inter-Bold",
+        fontSize: 50,
+        marginBottom: 50,
+        lineHeight:1.05,
+    },
+    secondaryText:{
+        maxWidth: "450px",
+        marginBottom: 50,
+    },
+    searchWrapper: {
+        display:"inline-flex",
+        alignItems: 'center',
+    },
+    searchButton: {
+        height: 55
     }
 }));
