@@ -24,18 +24,29 @@ export const useStyles = makeStyles(theme => ({
         marginBottom: 25,
     },
     paper: {
+        display:'flex',
+        flexDirection:'column',
         padding: theme.spacing(2),
-        textAlign: 'center',
         backgroundColor:'transparent',
         boxShadow:'none',
-        textAlign:'left'
     },
 
-    aboutIllustration: {
-        width:'90%'
+    topCourseNavigation:{
+        width: '70%',
+        display: 'flex',
+        justifyContent:'space-between',
     },
 
-    aboutHiasan: {
-        width:'100%'
+    navButton:{
+        width: '80px',
+    },
+
+    topCourseIllustration: {
+        width:'80%',
+    },
+
+    topCoursePanel: {
+        width:'70%',
+        marginBottom: 30,
     }
 }));

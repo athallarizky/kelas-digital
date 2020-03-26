@@ -16,26 +16,52 @@ export const useStyles = makeStyles(theme => ({
         maxWidth:"450px",
         fontFamily:"Inter-Bold",
         fontSize: 50,
-        marginBottom: 15,
+        marginBottom: 70,
         lineHeight:1.05,
     },
     secondaryText:{
         maxWidth: "450px",
-        marginBottom: 25,
+        marginBottom: 50,
     },
     paper: {
         padding: theme.spacing(2),
         textAlign: 'center',
         backgroundColor:'transparent',
-        boxShadow:'none',
         textAlign:'left'
     },
 
-    aboutIllustration: {
-        width:'90%'
+    shadowNone: {
+        boxShadow:'none',
     },
 
-    aboutHiasan: {
-        width:'100%'
+    offersIllustration:{
+        width:'90%',
+    },
+
+    offersWrapper:{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        paddingTop: 50,
+    },
+
+    offersButton:{
+        display:'flex',
+        justifyContent: 'flex-start',
+        width: '250px',
+        minHeight: '50px',
+        textTransform: 'capitalize',
+        marginBottom: 80,
+        backgroundColor: '#FFF',
+    },
+
+    offersIcon:{
+        fontSize: 50,
+    },
+
+    iconText:{
+        marginLeft: 5,
     }
+
 }));
