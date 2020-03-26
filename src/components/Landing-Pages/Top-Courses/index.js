@@ -1,6 +1,8 @@
 import React from 'react';
 import {useStyles} from './style';
 
+import CoursePanel from '../../Shared/Course-Panel';
+
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -27,7 +29,9 @@ const TopCourses = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <Paper className={`${classes.paper} ${classes.topCourseWrapper}`}>
-                        <img src="/assets/img/png/top.png" className={classes.topCoursePanel}/>
+                        
+                        <CoursePanel/>
+                        
                         <div className={classes.topCourseNavigation}>
                             <Button variant="contained" color="primary" className={classes.navButton}>
                                 <NavigateBefore color="ternary" className={classes.offersIcon}/>
@@ -36,7 +40,6 @@ const TopCourses = () => {
                                 <NavigateNext color="ternary" className={classes.offersIcon}/>
                             </Button>
                         </div>
-                        
                     </Paper>
                 </Grid>
             </Grid>

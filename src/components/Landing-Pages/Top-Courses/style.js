@@ -45,8 +45,4 @@ export const useStyles = makeStyles(theme => ({
         width:'80%',
     },
 
-    topCoursePanel: {
-        width:'70%',
-        marginBottom: 30,
-    }
 }));

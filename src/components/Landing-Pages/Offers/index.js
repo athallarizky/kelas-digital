@@ -1,6 +1,5 @@
 import React from 'react';
 
-import SearchIcon from '@material-ui/icons/Search';
 import LocalAtm from '@material-ui/icons/LocalAtm';
 import Hd from '@material-ui/icons/Hd';
 import PlaylistAddCheck from '@material-ui/icons/PlaylistAddCheck';

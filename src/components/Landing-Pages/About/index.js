@@ -15,7 +15,7 @@ const About = () => {
                     <Paper className={classes.paper}>
                     <h1 className={classes.mainText}>About Us</h1>
                         <p className={classes.secondaryText}>
-                        Merupakan Website penyedia course online dalam bentuk video dengan materi paling update dan mentor profesional yang akan membantu anda menjadi ahli.
+                            Merupakan Website penyedia course online dalam bentuk video dengan materi paling update dan mentor profesional yang akan membantu anda menjadi ahli.
                         </p>
                         <p className={classes.secondaryText}>Segera Mulai Langkah Pertama anda untuk menguasai skill yang dibutuhkan industri saat ini !</p>
 
