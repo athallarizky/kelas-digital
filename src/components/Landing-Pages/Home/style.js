@@ -7,7 +7,7 @@ export const useStyles = makeStyles(theme => ({
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         paddingLeft: 100,
-        paddingTop: 100,
+        paddingTop: 80,
     },
     mainText:{
         maxWidth:"450px",
