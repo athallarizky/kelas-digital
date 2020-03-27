@@ -34,10 +34,10 @@ const TopCourses = () => {
                         
                         <div className={classes.topCourseNavigation}>
                             <Button variant="contained" color="primary" className={classes.navButton}>
-                                <NavigateBefore color="ternary" className={classes.offersIcon}/>
+                                <NavigateBefore color="ternary"/>
                             </Button>
                             <Button variant="contained" color="primary" className={classes.navButton}>
-                                <NavigateNext color="ternary" className={classes.offersIcon}/>
+                                <NavigateNext color="ternary"/>
                             </Button>
                         </div>
                     </Paper>

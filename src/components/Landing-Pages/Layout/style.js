@@ -116,6 +116,30 @@ export const useStyles = makeStyles(theme => ({
 
   rightPane: {
     marginLeft: drawerWidth
+  },
+
+  footerWrapper:{
+    backgroundColor: '#E5E5E5',
+    minHeight: '250px',
+    padding:'50px 100px'
+  },
+  transparentPaper:{
+    backgroundColor: 'transparent !important',
+    border: 'none !important',
+    boxShadow:'none !important',
+  },
+  footerDesc:{
+    marginTop: 20,
+    color:'#404852',
+    fontSize: 15,
+  },
+  socialMediaList:{
+    margin: '10px 0',
+    listStyle:'none',
+    color:'#404852',
+  },
+  copyRight:{
+    paddingTop: 50,
   }
 
 }));

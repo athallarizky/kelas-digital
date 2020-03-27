@@ -7,7 +7,7 @@ const SearchBar = () =>{
     return(
         <div>
             <form className={classes.root} noValidate autoComplete="off">
-                <TextField id="outlined-basic" label="Cari Course..." variant="outlined" />
+                <TextField id="outlined-basic" label="Cari Course..." variant="outlined"/>
             </form>
         </div>
     )

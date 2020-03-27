@@ -12,7 +12,6 @@ export const useStyles = makeStyles(theme => ({
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        // paddingLeft: 100,
         paddingTop: 80,
     },
     paper: {
@@ -33,6 +32,10 @@ export const useStyles = makeStyles(theme => ({
     secondaryText:{
         maxWidth: "450px",
         marginBottom: 50,
+    },
+    searchBar:{
+        backgroundColor:'pink !important',
+        width:100,
     },
     searchWrapper: {
         display:"inline-flex",
