@@ -28,7 +28,6 @@ export const useStyles = makeStyles(theme => ({
         display:'flex',
         flexDirection:'column',
         padding: theme.spacing(2),
-        textAlign: 'center',
         backgroundColor:'transparent',
         textAlign:'left'
     },

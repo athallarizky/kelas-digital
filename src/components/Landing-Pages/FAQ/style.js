@@ -31,7 +31,6 @@ export const useStyles = makeStyles(theme => ({
     },
     paper: {
         padding: theme.spacing(2),
-        textAlign: 'center',
         backgroundColor:'transparent',
         boxShadow:'none',
         textAlign:'left',

@@ -15,7 +15,6 @@ import FAQ from "../FAQ";
 import Testimonials from "../Testimonials";
 import PageNotFound from '../../Shared/Page-Not-Found';
 
-
 const Layout = () =>{
     const classes = useStyles();    
     return(

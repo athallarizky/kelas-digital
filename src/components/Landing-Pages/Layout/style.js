@@ -49,13 +49,6 @@ export const useStyles = makeStyles(theme => ({
     letterSpacing: 2.5,
   },
 
-  navItem: {
-    // display:'flex',
-    // justifyContent:'center !important',
-  },
-
-  
-
   menuButton: {
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('sm')]: {

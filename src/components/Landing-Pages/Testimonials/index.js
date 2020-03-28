@@ -1,9 +1,6 @@
 import React from 'react';
 import {useStyles} from './style';
 
-import LocalAtm from '@material-ui/icons/LocalAtm';
-import Hd from '@material-ui/icons/Hd';
-import PlaylistAddCheck from '@material-ui/icons/PlaylistAddCheck';
 import NavigateBefore from '@material-ui/icons/NavigateBefore';
 import NavigateNext from '@material-ui/icons/NavigateNext';
 
