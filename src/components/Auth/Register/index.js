@@ -4,6 +4,7 @@ import { useStyles } from './style';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+
 const Register = () => {
     const classes = useStyles();
 

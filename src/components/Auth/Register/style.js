@@ -13,7 +13,6 @@ export const useStyles = makeStyles(theme => ({
       backgroundColor: '#FFF',
       borderRadius:10,
       margin:'20px 0',
-      width:'400px',
       padding: '25px 100px',
     },
 

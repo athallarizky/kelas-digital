@@ -62,7 +62,7 @@ function Navigation(props) {
       <CssBaseline />
       <nav className={classes.drawer} aria-label="mailbox folders" >
         <Hidden xsDown implementation="css">
-          <Drawer classes={{ paper: classes.drawerPaper,}} variant="permanent" open >
+          <Drawer classes={{ paper: classes.drawerPaper,}} variant="persistent" open >
             {drawer}
           </Drawer>
         </Hidden>
