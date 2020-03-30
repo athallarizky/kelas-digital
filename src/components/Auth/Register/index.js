@@ -18,16 +18,20 @@ const Register = () => {
                 <div className={classes.formGroup}>
                     <form noValidate autoComplete="off">
                         <label className={classes.labelInput}>Nama Lengkap</label>
-                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true"/>
+                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            className: classes.input}}/>
 
                         <label className={classes.labelInput}>Email</label>
-                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true"/>
+                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            className: classes.input}}/>
 
                         <label className={classes.labelInput}>Kesibukan</label>
-                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true"/>
+                        <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            className: classes.input}}/>
 
                         <label className={classes.labelInput}>Password</label>
-                        <TextField id="outlined-basic" type="password" variant="outlined" className={classes.registerInput} fullWidth="true"/>
+                        <TextField id="outlined-basic" type="password" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            className: classes.input}}/>
                         <Button variant="contained" color="primary" fullWidth="true" className={classes.buttonInput}>Daftar</Button>
                     </form>
                     <p className={classes.loginText}>Sudah punya akun? Silahkan <Link to="/login" className={classes.loginLink}><span style={{color:"#FF2858"}}>Login.</span></Link></p>

@@ -8,26 +8,27 @@ export const useStyles = makeStyles(theme => ({
         alignItems:'center',
         backgroundColor:'#E5E5E5',
     },
+
     boxContainer: {
       backgroundColor: '#FFF',
       borderRadius:10,
-      minWidth:'450px',
-      height:'80%',
-      padding: '50px 100px',
+      margin:'20px 0',
+      width:'400px',
+      padding: '25px 100px',
     },
 
     appLogo:{
-        marginTop: 10,
-        marginBottom:30,
+        marginBottom:15,
         color:'#3F3D56',
         fontFamily:'Inter-Bold',
-        fontSize:15,
+        fontSize:12,
     },
     mainText:{
-        fontSize:45,
+        fontSize:30,
         marginBottom:20,
     },
     secondaryText:{
+        fontSize:15,
         color:'#3F3D56',
         maxWidth:'70%',
         marginBottom:20,
@@ -36,6 +37,11 @@ export const useStyles = makeStyles(theme => ({
     labelInput:{
         fontWeight:'bold',
     },
+
+    input:{
+        height: 45
+    },
+    
     registerInput:{
         display:'block',
         marginTop:5,
@@ -44,6 +50,7 @@ export const useStyles = makeStyles(theme => ({
         border:'2px solid #FF2858',
         borderRadius:5,
     },
+
     buttonInput:{
         height:50,
         fontFamily:'Inter-Bold',
