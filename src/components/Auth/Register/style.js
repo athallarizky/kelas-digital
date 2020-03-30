@@ -23,10 +23,12 @@ export const useStyles = makeStyles(theme => ({
         fontFamily:'Inter-Bold',
         fontSize:12,
     },
+
     mainText:{
         fontSize:30,
         marginBottom:20,
     },
+
     secondaryText:{
         fontSize:15,
         color:'#3F3D56',
@@ -47,7 +49,6 @@ export const useStyles = makeStyles(theme => ({
         marginTop:5,
         marginBottom:20,
         minWidth:'100%',
-        border:'2px solid #FF2858',
         borderRadius:5,
     },
 
@@ -57,7 +58,7 @@ export const useStyles = makeStyles(theme => ({
     },
     loginText:{
         textAlign:'center',
-        padding:'20px 0',
+        padding:'10px 0',
     },
     loginLink:{
         textDecoration:'none',
