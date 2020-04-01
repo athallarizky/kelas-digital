@@ -20,14 +20,14 @@ const Login = () => {
                     <div className={classes.formGroup}>
                         <form noValidate autoComplete="off">
                             <label className={classes.labelInput}>Email</label>
-                            <TextField id="outlined-basic" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            <TextField id="outlined-basic" variant="outlined" className={classes.loginInput} fullWidth="true" InputProps={{
                                 className: classes.input}}/>
 
                             <label className={classes.labelInput}>Password</label>
-                            <TextField id="outlined-basic" type="password" variant="outlined" className={classes.registerInput} fullWidth="true" InputProps={{
+                            <TextField id="outlined-basic" type="password" variant="outlined" className={classes.loginInput} fullWidth="true" InputProps={{
                                 className: classes.input}}/>
                             <Link to="/register" className={classes.loginLink}><span className={classes.forgotPassword}>Forgot Password</span></Link>
-                            <Button variant="contained" color="primary" fullWidth="true" className={classes.buttonInput}>Daftar</Button>
+                            <Button variant="contained" color="primary" fullWidth="true" className={classes.buttonInput}>Login</Button>
                         </form>
                         <p className={classes.loginText}>Belum punya akun? Silahkan <Link to="/register" className={classes.loginLink}><span style={{color:"#FF2858"}}>Daftar.</span></Link></p>
                     </div>

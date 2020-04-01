@@ -12,7 +12,6 @@ export const useStyles = makeStyles(theme => ({
     loginWrapper:{
         display:'flex',
         flexDirection:'column',
-        // alignItems:'center',
         justifyContent:'center',
         height: '100%',
     },
@@ -52,7 +51,7 @@ export const useStyles = makeStyles(theme => ({
         height: 45
     },
     
-    registerInput:{
+    loginInput:{
         display:'block',
         marginTop:5,
         marginBottom:20,
